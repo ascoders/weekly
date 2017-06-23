@@ -1,0 +1,265 @@
+# 1 引言
+
+<img src="assets/13/logo.jpeg" width="500" alt="logo" />
+
+javascript 的 this 是个头痛的话题，本期精读的文章更是引出了一个观点，避免使用 this。我们来看看是否有道理。
+
+# 2 内容概要
+
+javascript 语言的 this 是个复杂的设计，相比纯对象与纯函数，this 带来了如下问题：
+
+```javascript
+const person = new Person('Jane Doe')
+const getGreeting = person.getGreeting
+// later...
+getGreeting() // Uncaught TypeError: Cannot read property 'greeting' of undefined at getGreeting
+```
+
+初学者可能突然将 this 弄丢导致程序出错，甚至在 react 中也要使用 `bind` 的方式，使回调可以访问到 `setState` 等函数。
+
+this 也不利于测试，如果使用纯函数，可以通过入参出参做测试，而不需要预先初始化环境。
+
+**所以我们可以避免使用 this**，看如下的例子：
+
+```javascript
+function setName(person, strName) {
+  return Object.assign({}, person, {name: strName})
+}
+
+// bonus function!
+function setGreeting(person, newGreeting) {
+  return Object.assign({}, person, {greeting: newGreeting})
+}
+
+function getName(person) {
+  return getPrefixedName('Name', person.name)
+}
+
+function getPrefixedName(prefix, name) {
+  return `${prefix}: ${name}`
+}
+
+function getGreetingCallback(person) {
+  const {greeting, name} = person
+  return (subject) => `${greeting} ${subject}, I'm ${name}`
+}
+
+const person = {greeting: 'Hey there!', name: 'Jane Doe'}
+const person2 = setName(person, 'Sarah Doe')
+const person3 = setGreeting(person2, 'Hello')
+getName(person3) // Name: Sarah Doe
+getGreetingCallback(person3)('Jeff') // Hello Jeff, I'm Sarah Doe
+```
+
+<img src="assets/13/1.png" width="500" alt="demo1" />
+
+这样 person 实例是个纯对象，没有将方法挂载到原型链上，简单易懂。
+
+或者可以将属性放在上级作用于，避免使用 this，就避免了 this 丢失带来的隐患：
+
+```javascript
+function getPerson(initialName) {
+  let name = initialName
+  const person = {
+    setName(strName) {
+      name = strName
+    },
+    greeting: 'Hey there!',
+    getName() {
+      return getPrefixedName('Name')
+    },
+    getGreetingCallback() {
+      const {greeting} = person
+      return (subject) => `${greeting} ${subject}, I'm ${name}`
+    },
+  }
+  function getPrefixedName(prefix) {
+    return `${prefix}: ${name}`
+  }
+  return person
+}
+```
+
+以上代码没有用到 this，也不会因为 this 产生的问题所困扰。
+
+# 3 精读
+
+本文作者认为，class 带来的困惑主要在于 this，这主要因为成员函数会挂到 prototype 下，虽然多个实例共享了引用，但因此带来的隐患就是 this 的不确定性。js 有许多种 this 丢失情况，比如 `隐式绑定` `别名丢失隐式绑定` `回调丢失隐式绑定` `显式绑定` `new绑定` `箭头函数改变this作用范围` 等等。
+
+由于在 prototype 中的对象依赖 this，如果 this 丢了，就访问不到原型链，不但会引发报错，在写代码时还需要注意 this 的作用范围是很头疼的事。因此作者有如下解决方案：
+
+```javascript
+function getPerson(initialName) {
+  let name = initialName
+  const person = {
+    setName(strName) {
+      name = strName
+    }
+  }
+  return person
+}
+```
+
+由此生成的 person 对象不但是个简单 object，由于没有调用 this，也不存在 this 丢失的情况。
+
+这个观点我是不认可的。当然做法没有问题，代码逻辑也正确，也解决了 this 存在的原型链访问丢失问题，但这并不妨碍使用 this。我们看以下代码：
+
+```javascript
+class Person {
+  setName = (name) => {
+    this.name = name
+  }
+}
+
+const person = new Person()
+const setName = person.setName
+setName("Jane Doe")
+console.log(person)
+```
+
+这里用到了 this，也产生了别名丢失隐式绑定，但 this 还能正确访问的原因在于，没有将 setName 的方法放在原型链上，而是放在了每个实例中，因此无论怎么丢失 this，也仅仅丢失了原型链上的方法，但 this 无论如何会首先查找其所在对象的方法，只要方法不放在原型链上，就不用担心丢失的问题。
+
+至于放在原型链上会节约多个实例内存开销问题，函数式也无法避免，如果希望摆脱 this 带来的困扰，class 的方式也可以解决问题。
+
+## 3.1 this 丢失的情况
+
+### 3.1.1 默认绑定
+
+在严格模式与非严格模式下，默认绑定有所区别，非严格模式 this 会绑定到上级作用域，而 `use strict` 时，不会绑定到 window。
+
+```javascript
+function foo(){
+  console.log(this.count) // 1
+  console.log(foo.count) // 2
+}
+var count = 1
+foo.count = 2
+foo()
+```
+
+```javascript
+function foo(){
+  "use strict"
+  console.log(this.count) // TypeError: count undefined
+}
+var count = 1
+foo()
+```
+
+### 3.1.2 隐式绑定
+
+当函数被对象引用起来调用时，this 会绑定到其依附的对象上。
+
+```javascript
+function foo(){
+  console.log(this.count) // 2
+}
+var obj = {
+  count: 2,
+  foo: foo
+}
+obj.foo()
+```
+
+### 3.1.3 别名丢失隐式绑定
+
+调用函数引用时，this 会根据调用者环境而定。
+
+```javascript
+function foo(){
+  console.log(this.count) // 1
+}
+var count = 1
+var obj = {
+  count: 2,
+  foo: foo
+}
+var bar = obj.foo // 函数别名
+bar()
+```
+
+### 3.1.4 回调丢失隐式绑定
+
+这种情况类似 react 默认的情况，将函数传递给子组件，其调用时，this 会丢失。
+
+```javascript
+function foo(){
+  console.log(this.count) // 1
+}
+var count = 1
+var obj = {
+  count: 2,
+  foo: foo
+}
+setTimeout(obj.foo)
+```
+
+## 3.2 this 绑定修复
+
+### 3.2.1 bind 显式绑定
+
+使用 bind 属于显示绑定。
+
+```javascript
+function foo(){
+  console.log(this.count) // 1
+}
+var obj = {
+  count: 1
+}
+foo.call(obj)
+
+var bar = foo.bind(obj)
+bar()
+```
+
+### 3.2.2 es6绑定
+
+这种情况类似使用箭头函数创建成员变量，以下方式等于创建了没有挂载到原型链的匿名函数，因此 this 不会丢失。
+
+```javascript
+function foo(){
+  setTimeout(() => {
+    console.log(this.count) // 2
+  })
+}
+var obj = {
+  count: 2
+}
+foo.call(obj)
+```
+
+### 3.2.3 函数 bind
+
+除此之外，我们还可以指定回调函数的作用域，达到 this 指向正确原型链的效果。
+
+```javascript
+function foo(){
+  setTimeout(function() {
+    console.log(this.count) // 2
+  }.bind(this))
+}
+var obj = {
+  count: 2
+}
+foo.call(obj)
+```
+
+关于块级作用域也是 this 相关的知识点，由于现在大量使用 `let` `const` 语法，甚至在 `if` 块下也存在块级作用域：
+
+```javascript
+if (true) {
+  var a = 1
+  let b = 2
+  const c = 3
+}
+console.log(a) // 1
+console.log(b) // ReferenceError
+console.log(c) // ReferenceError
+```
+
+# 4 总结
+
+要正视 this 带来的问题，不能因为绑定丢失，引发非预期的报错而避免使用，其根本原因在于 javascript 的原型链机制。这种机制是非常好的，将对象保存在原型链上，可以方便多个实例之间共享，但因此不可避免带来了原型链查找过程，如果对象运行环境发生了变化，其原型链也会发生变化，此时无法享受到共享内存的好处，我们有两种选择：一种是使用 bind 将原型链找到，一种是比较偷懒的将函数放在对象上，而不是原型链上。
+
+自动 bind 的方式 react 之前在框架层面做过，后来由于过于黑盒而取消了。如果为开发者隐藏 this 细节，框架层面自动绑定，看似方便了开发者，但过分提高开发者对 this 的期望，一旦去掉黑魔法，就会有许多开发者不适应 this 带来的困惑，所以不如一开始就将 this 问题透传给开发者，使用自动绑定的装饰器，或者回调处手动 `bind(this)`，或将函数直接放在对象中都可以解决问题。

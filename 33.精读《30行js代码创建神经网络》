@@ -1,0 +1,149 @@
+本期精读的文章是：[30行js代码创建神经网络](https://medium.freecodecamp.org/how-to-create-a-neural-network-in-javascript-in-only-30-lines-of-code-343dafc50d49)。
+
+懒得看文章？没关系，稍后会附上文章内容概述，同时，更希望能通过阅读这一期的精读，穿插着深入阅读原文。
+
+## 1 引言
+![Google Dream](https://cdn-images-1.medium.com/max/2000/1*Z6kowWUGajls6aYusTy4oA.jpeg)
+
+自从Alpha Go 打败了李世石，大家对深度学习的体感更加的强烈，人工智能也越来越多的出现在大家的生活之中。很多人也会谈论，程序员什么时候会被人工智能给替代？与其慌张，在人工智能的潮流下，不断学习新的人工智能相关技术，武装自己，才是硬道理。 本文介绍了如何使用[Synaptic.js](https://synaptic.juancazala.com/#/) 创建简单的神经网络，解决异或运算的问题。
+
+## 2 内容概要
+
+### 神经网络中的神经元和突触
+
+对神经网络有所了解的人都知道，神经网络就是构建类似人脑的神经系统，在人脑的神经系统中，存在一种非常重要的细胞，叫神经元。在神经网络中，你可以把神经元理解为一个函数，它接受一些输入返回一些输出结果，其中[Sigmoid神经元](https://en.wikipedia.org/wiki/Sigmoid_function)是一种非常常用的神经元，这种神经元以 Sigmoid 函数 作为[激活函数](https://www.zhihu.com/question/22334626)。Sigmoid 函数接受任意的数值，输出 `0` 到 `1` 之间的值，大家可以看看常见的几种 Sigmoid 函数的函数曲线。
+
+![sigmoid](https://img.alicdn.com/tfs/TB1kwPfcOqAXuNjy1XdXXaYcVXa-1398-698.png)
+
+知道了 Sigmoid 函数了，我们可以看一个具体的 **Sigmoid神经元** 例子。
+
+![Sigmoid example](https://img.alicdn.com/tfs/TB186N_ffDH8KJjy1XcXXcpdXXa-1478-626.png)
+
+在这个例子中 `7` 和 `3` 是**权重**参数，`-2` 是**偏差**，最左边的 `1` 和 `0` 是 **输入层** 中的两个节点，通过如下的计算，得到了一个 **隐藏层** 节点 `5`。
+
+![5](https://img.alicdn.com/tfs/TB1bCjgcOqAXuNjy1XdXXaYcVXa-1342-420.png)
+
+然后将节点 `5` 输入到一个 Sigmoid 函数，得到一个 **输出层** 节点 `1`。
+
+
+### 如何构建神经网络
+
+有了神经元，将所有的神经元连接起来，就构建了一个 **神经网络**。如下图，神经元间的箭头，可以理解为是一种 "突触"。
+
+![NN](https://img.alicdn.com/tfs/TB1SZKXffDH8KJjy1XcXXcpdXXa-954-704.png)
+
+完成神经网络的构建了，你可以用来识别手写数字、垃圾邮件判断等众多领域。当然就像上面的例子，好的模型依赖于正确的**权重** 和 **偏差**的选择。在实际工作中，每次完成神经网络的训练，我们都会拿训练的结果来对测试样式进行预测，得到算法的准确率，然后尝试选择更好的**权重**和**偏差**，期望达到更好的准确度，这个学习的过程称为**反向传播**。通过大量的学习后，最终才会得到更好的预测准确率。
+
+
+### 代码实现
+
+下面附上代码的实现。
+
+```js
+const { Layer, Network } = window.synaptic;
+var inputLayer = new Layer(2);
+var hiddenLayer = new Layer(3);
+var outputLayer = new Layer(1);
+
+inputLayer.project(hiddenLayer);
+hiddenLayer.project(outputLayer);
+var myNetwork = new Network({
+ input: inputLayer,
+ hidden: [hiddenLayer],
+ output: outputLayer
+});
+
+// train the network - learn XOR
+var learningRate = .3;
+for (var i = 0; i < 20000; i++) {
+  // 0,0 => 0
+  myNetwork.activate([0,0]);
+  myNetwork.propagate(learningRate, [0]);
+  // 0,1 => 1
+  myNetwork.activate([0,1]);
+  myNetwork.propagate(learningRate, [1]);
+  // 1,0 => 1
+  myNetwork.activate([1,0]);
+  myNetwork.propagate(learningRate, [1]);
+  // 1,1 => 0
+  myNetwork.activate([1,1]);
+  myNetwork.propagate(learningRate, [0]);
+}
+```
+
+简单而言，运行 `myNetwork.activate([0,0])` 时，`[0, 0]`是输入值，它对应的异或运算的结果是false, 也就是 `0`。 这个是前向的传播，所以称为 **激活** 网络，每次前向传播之后，我们需要做一次**反向传播**来更新权重和偏差。
+
+反向传播就是通过这行代码来做的： `myNetwork.propagate(learningRate, [0])`，其中 `learningRate	`是告诉神经网络如何调整权重的常量，第二个参数 `[0]`是异或运算的结果。
+
+经过20000次学习，我们得到如下的结果:
+
+```js
+console.log(myNetwork.activate([0,0])); 
+-> [0.015020775950893527]
+console.log(myNetwork.activate([0,1]));
+->[0.9815816381088985]
+console.log(myNetwork.activate([1,0]));
+-> [0.9871822457132193]
+console.log(myNetwork.activate([1,1]));
+-> [0.012950087641929467]
+```
+
+对运算结果取最近的整数，我们就可以得到正确**异或运算**的结果。
+ 
+## 3 精读
+
+读原文的时候，大家可能主要对反向传播如何修正权重和偏差会有所疑问，作者给出的引文[A Step by Step Backpropagation Example — by Matt Mazur](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/) 很详细的解释了整个过程。
+
+方便大家理解，我以上面的异或运算的例子，简单的分析一下整个过程。其中我们选取的激活函数是：Logistic 函数。
+
+![Logistic](https://img.alicdn.com/tfs/TB1Pu1jffDH8KJjy1XcXXcpdXXa-506-112.png)
+
+当我们输`[0, 0]`时，我们选取一些任意的权重和偏差，计算过程如下：
+
+![example](https://img.alicdn.com/tfs/TB1KgbscOqAXuNjy1XdXXaYcVXa-1858-1206.png)
+
+为了方便后续的推到，我们可以通过一些符号来简单的描述一下`h1`和最终记过`output`计算的过程:
+
+![calculation](https://img.alicdn.com/tfs/TB1FsepffDH8KJjy1XcXXcpdXXa-704-376.png)
+
+
+计算得到结果 `o` 后，我们可以通过平方误差函数
+
+![error](https://img.alicdn.com/tfs/TB1dh2scOqAXuNjy1XdXXaYcVXa-552-128.png)
+
+来计算误差。我们在上面的运算中得到的 `output = 0.73673`, 目标值是对 `[0,0]` 取异或运算的值，也就是： `target = 0`，带入上面的公式得到的误差值为： `0.271385`。
+
+
+到这里我们进行**反向传播**的过程，也就是说我们需要确认新的参数： `w1`, `w2`, `w3`, `w4`, `w5`, `w6`, `b1`, `b2`.
+
+我们先计算新的 `w5`,这里是通过计算误差函数相对于`w5`的偏导来得到新的参数的，我们可以通过下面的链式求导来计算偏导。
+
+![partical](https://img.alicdn.com/tfs/TB1DGOnffDH8KJjy1XcXXcpdXXa-700-136.png)
+
+得到 `w5` 对应的偏导后，我们通过下面的公式来计算新的`w5`参数:
+
+![w5](https://img.alicdn.com/tfs/TB1DAqpffDH8KJjy1XcXXcpdXXa-518-132.png)
+
+其中, `0.3` 就是我们在代码中设置的 `learningRate` 的值。 重复上面相似的过程，我们可以计算其他参数的值，这里就不再累述。
+
+
+## 4. 总结
+
+本文介绍了使用[Synaptic.js](https://synaptic.juancazala.com/#/) 创建简单的神经网络，解决异或运算的问题过程，也对**反向传播**的过程进行了简单的解释。文中实现神经网络的代码非常简单，包行注释也不超过30行，但是只会代码会有点囫囵吞枣的感觉，大家可以参考文章中给的引文，了解更多的算法原理。
+
+### 相关资料
+
+[1. A Step by Step Backpropagation Example — by Matt Mazur](https://mattmazur.com/2015/03/17/a-step-by-step-backpropagation-example/)
+
+[2. Hackers Guide to Neural Nets — by Andrej Karpathy](http://karpathy.github.io/neuralnets/)
+
+[3. NeuralNetworksAndDeepLarning — by Michael Nielsen](http://neuralnetworksanddeeplearning.com/chap1.html)
+
+[4. Synaptic.js](https://github.com/cazala/synaptic)
+
+
+### 更多讨论
+
+> 讨论地址是：[精读《30行js代码创建神经网络》 · Issue #45 · dt-fe/weekly](https://github.com/dt-fe/weekly/issues/45)
+
+**如果你想参与讨论，请[点击这里](https://github.com/dt-fe/weekly)，每周都有新的主题，每周五发布。**

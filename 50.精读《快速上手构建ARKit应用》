@@ -1,0 +1,52 @@
+# 精读《快速上手构建ARKit应用》
+
+原文地址: [how-to-make-your-own-arkit-app-in-5-minutes-using-react-native](https://medium.com/@HippoAR/how-to-make-your-own-arkit-app-in-5-minutes-using-react-native-9d7ce109a4c2)
+
+## 引言
+ARKit是苹果推出的增强现实套装，而react-native-arkit是基于此的上层封装。对于前端开发而言，这可能是最快上手ARKit的方式了，本周精读让我们来初窥ARKit和React Native ARKit这个库。
+
+## 概要
+本次精读我们带来的是一篇《快速上手构建ARKit应用》，原文链接如上。原文标题更加直接，直译的话是“如何在5分钟里利用react native搭建出你自己的ARKit应用”。确实，这篇文章整体也非常明确，以跑起整个ARKit Demo为最直接最主要的目的。
+
+跑起ARKit，也很简单。硬件上，只要有一台iPhone 6S以上的手机；软件上，只要准备好最新版本的XCode和日常开发要用的Node环境了就好。按照`react-native-arkit`的里面的README就可以跑起来了。这个库不
+
+## 3 精读
+在开始精读前，我先抛出我的问题三连：Why AR? Why ARKit? Why React Native ARKit?
+
+### 3.1 Why AR?
+在之前的第43期精读评论中，我们探讨了AR对于和前端结合的可能性。总的来说，AR把前端开发不再局限在有限的屏幕空间上，对于可视化等对前端展示空间有强烈需求的细分领域，AR是一个很值得研究的内容。如果对于这一块内容有兴趣，欢迎回看第43期精读评论 [《精读〈增强现实与可视化〉》](https://github.com/dt-fe/weekly/blob/master/43.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%A2%9E%E5%BC%BA%E7%8E%B0%E5%AE%9E%E4%B8%8E%E5%8F%AF%E8%A7%86%E5%8C%96%E3%80%8B.md)。
+
+### 3.2 Why ARKit?
+为什么选择 ARKit 入手进行实验？其因有二。第一，相比于 Microsoft HoloLens 的价格，售价只有它三分之一的iPhone X无论是体积重量，还是性价比，抑或是保有量都是大大占优的。噢对，说到保有量，iPhone 6S及以上都支持ARKit。所以说iPhone是我们身边最容易接触到的AR设备是不为过的。第二，ARKit对于硬件的利用能力非一般的前端库可以做到的。大部分的AR前端库可以做到利用陀螺仪来构建一个三维立体空间。但是ARKit更进一步，他利用高频调用摄像头，通过对图像进行识别分析，可以进行空间感知，例如可以识别出一个平面。而这些都是ARKit所提供的，我们只需要调用它的能力就好了。对于开发者而言，ARKit会比一般的AR库更近一步。
+
+### 3.3 Why React Native ARKit?
+对于当下的前端开发，所有事情可以分为两种——0. 可以用 JavaScript 写的 1. 其他。至于为什么选择`react-native-arkit`这个库，原因自然也可以理解。相比于用原生的Swift来开发，React Native 的开发方式对于前端而言明显是更加容易上手了。对于尝试新东西，这也未尝不可。
+
+### 3.4 About Demo
+相比于原文中从初始化开始的步骤，官方还提供了一个已经配置好的[官方Demo](https://github.com/HippoAR/ReactNativeARKit)。使用这个，如果环境没有问题，的确只需要5分钟就可以跑起来一个ARKit应用了。
+
+![](https://img.alicdn.com/tfs/TB11dGFiFmWBuNjSspdXXbugXXa-540-960.jpg)
+
+上面的图片来自原文，可以看到，在`react-native-arkit`这个库里面的所支持的9种基本图形和文字。使用如下已经封装好的React Native组件就可以直接使用了。
+
+```javasctipt
+<ARKit.Box
+  pos={{ x: 0, y: 0, z: 0 }}
+  shape={{ width: 0.1, height: 0.1, length: 0.1, chamfer: 0.01 }}
+/>
+```
+
+[几何构造](http://v.youku.com/v_show/id_XMzUxMjk3NjUxMg==.html)
+上面的一个视频片段是我们在跑起来Demo后的立体效果。可以很清楚地看到，ARKit感知到了房间这个立方体空间后所构建出来的AR的效果。
+
+[平面识别](http://v.youku.com/v_show/id_XMzUxMjk3OTc0NA==.html)
+而最后的这段视频会更加有趣一些，中央的红圈的出现逻辑是停留在最近识别出的一个平面上。我们可以看到首先识别出了地面，红圈随地面而动；再移向桌面时，很快又识别出了桌面，重新生成了一个停留在桌面上的红圈。通过这一段可以看出无论是明暗划分明显的地面，还是堆满杂物的桌面，ARKit都可以很轻松的识别出来。
+
+## 4. 总结
+苹果的ARKit对空间平面的感知能力胜过了一般的AR渲染库。而iPhone 6S就能跑的特性又让我们觉得AR其实并没有那么遥远。在此基础之上的React Native封装`react-native-arkit`，让我们通过JS就拥有操作ARKit的能力。这的确是一个快速上手ARKit的方式。
+
+
+## 5 更多讨论
+讨论地址是：[精读《快速上手构建ARKit应用》 · Issue #70 · dt-fe/weekly](https://github.com/dt-fe/weekly/issues/70)
+
+如果你想参与讨论，请[点击这里](https://github.com/dt-fe/weekly)，每周都有新的主题，每周末发布。

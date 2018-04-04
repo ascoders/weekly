@@ -29,6 +29,13 @@ ARKit是苹果推出的增强现实套装，而react-native-arkit是基于此的
 
 上面的图片来自原文，可以看到，在`react-native-arkit`这个库里面的所支持的9种基本图形和文字。使用如下已经封装好的React Native组件就可以直接使用了。
 
+```javasctipt
+<ARKit.Box
+  pos={{ x: 0, y: 0, z: 0 }}
+  shape={{ width: 0.1, height: 0.1, length: 0.1, chamfer: 0.01 }}
+/>
+```
+
 [几何构造](http://v.youku.com/v_show/id_XMzUxMjk3NjUxMg==.html)
 上面的一个视频片段是我们在跑起来Demo后的立体效果。可以很清楚地看到，ARKit感知到了房间这个立方体空间后所构建出来的AR的效果。
 

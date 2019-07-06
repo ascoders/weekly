@@ -15,7 +15,7 @@
         <tr>
           <td align="center" valign="middle">
             <a href="https://e.coding.net/?utm_source=weekly" target="_blank">
-              <img width="300" src="https://img.alicdn.com/tfs/TB1u4oeLQvoK1RjSZFDXXXY3pXa-1108-369.jpg">
+              <img width="300" src="https://img.alicdn.com/tfs/TB107D.QbrpK1RjSZTEXXcWAVXa-1000-332.png">
             </a>
           </td>
         </tr>

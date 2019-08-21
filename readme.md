@@ -1,5 +1,9 @@
 # 前端精读
 
+<a href="https://travis-ci.org/dt-fe/weekly">
+  <img src="https://travis-ci.org/dt-fe/weekly.svg?branch=v2" alt="CircleCI Status">
+</a>
+
 前端界的好文精读，每周更新！
 
 - [周刊参考池](https://github.com/dt-fe/weekly/issues/2)

@@ -1,0 +1,28 @@
+{
+  "name": "weekly",
+  "version": "1.0.0",
+  "description": "前端界的好文精读，每周更新！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dt-fe/weekly.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dt-fe/weekly/issues"
+  },
+  "homepage": "https://github.com/dt-fe/weekly#readme",
+  "dependencies": {
+    "husky": "^3.0.4",
+    "lint-md-cli": "^0.1.1"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npx lint-md ./"
+    }
+  }
+}

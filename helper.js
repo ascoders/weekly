@@ -13,9 +13,9 @@ dirs.forEach(dir => {
   console.log(`### ${dir}\n`)
 
   readDir.sort((left, right) => left.split('.')[0] - right.split('.')[0]).forEach(dirName=>{
-    console.log(`- <a href="./${dir}/${dirName}" target="_blank">${dirName.replace('.md', '')}</a>`)
+    console.log(`- <a href="./${dir}/${dirName}">${dirName.replace('.md', '')}</a>`)
   })
 
-  console.log('\n')
+  console.log('')
 })
 

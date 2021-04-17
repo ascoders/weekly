@@ -12,10 +12,10 @@
 
 现已涵盖：
 
-- 结合大厂工作经验解读的 [前沿技术](https://github.com/ascoders/weekly/tree/master/%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF)，[源码解读](https://github.com/ascoders/weekly/tree/master/%E6%BA%90%E7%A0%81%E8%A7%A3%E8%AF%BB)。
+- 结合大厂工作经验解读的 [前沿技术](./前沿技术)，[源码解读](./源码解读)。
 - 逐渐加入一些后端技术解读。
-- 一些 [商业思考](https://github.com/ascoders/weekly/tree/master/%E5%95%86%E4%B8%9A%E6%80%9D%E8%80%83)。
-- 已完成 [编译原理](https://github.com/ascoders/weekly/tree/master/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86)、[设计模式](https://github.com/ascoders/weekly/tree/master/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F) 两大基础模块。
+- 一些 [商业思考](./商业思考)。
+- 已完成 [编译原理](./编译原理)、[设计模式](./设计模式) 两大基础模块。
 
 ### 前沿技术
 

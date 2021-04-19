@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：[191.精读《高性能表格》](https://github.com/ascoders/weekly/blob/master/%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF/191.%E7%B2%BE%E8%AF%BB%E3%80%8A%E9%AB%98%E6%80%A7%E8%83%BD%E8%A1%A8%E6%A0%BC%E3%80%8B.md)
+最新精读：<a href="./前沿技术/192.精读《DOM diff 最长上升子序列》.md">192.精读《DOM diff 最长上升子序列》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -22,11 +22,11 @@
 - <a href="./前沿技术/1.精读《js 模块化发展》.md">1.精读《js 模块化发展》</a>
 - <a href="./前沿技术/2.精读《模态框的最佳实践》.md">2.精读《模态框的最佳实践》</a>
 - <a href="./前沿技术/3.精读《前后端渲染之争》.md">3.精读《前后端渲染之争》</a>
-- <a href="./前沿技术/4.精读《AsyncAwait优越之处》.md">4.精读《AsyncAwait优越之处》</a>
+- <a href="./前沿技术/4.精读《AsyncAwait 优越之处》.md">4.精读《AsyncAwait 优越之处》</a>
 - <a href="./前沿技术/5.精读《民工叔单页数据流方案》.md">5.精读《民工叔单页数据流方案》</a>
-- <a href="./前沿技术/6.精读《JavaScript错误堆栈处理》.md">6.精读《JavaScript错误堆栈处理》</a>
+- <a href="./前沿技术/6.精读《JavaScript 错误堆栈处理》.md">6.精读《JavaScript 错误堆栈处理》</a>
 - <a href="./前沿技术/7.精读《请停止 css-in-js 的行为》.md">7.精读《请停止 css-in-js 的行为》</a>
-- <a href="./前沿技术/8.精读《入坑React前没有人会告诉你的事》.md">8.精读《入坑React前没有人会告诉你的事》</a>
+- <a href="./前沿技术/8.精读《入坑 React 前没有人会告诉你的事》.md">8.精读《入坑 React 前没有人会告诉你的事》</a>
 - <a href="./前沿技术/9.精读《Immutable 结构共享》.md">9.精读《Immutable 结构共享》</a>
 - <a href="./前沿技术/10.精读《Web Components 的困境》.md">10.精读《Web Components 的困境》</a>
 - <a href="./前沿技术/11.精读《前端调试技巧》.md">11.精读《前端调试技巧》</a>
@@ -41,17 +41,17 @@
 - <a href="./前沿技术/20.精读《Nestjs》文档.md">20.精读《Nestjs》文档</a>
 - <a href="./前沿技术/21.精读《Web fonts: when you need them, when you don’t》.md">21.精读《Web fonts: when you need them, when you don’t》</a>
 - <a href="./前沿技术/22.精读《V8 引擎特性带来的的 JS 性能变化》.md">22.精读《V8 引擎特性带来的的 JS 性能变化》</a>
-- <a href="./前沿技术/23.精读《API设计原则》.md">23.精读《API设计原则》</a>
+- <a href="./前沿技术/23.精读《API 设计原则》.md">23.精读《API 设计原则》</a>
 - <a href="./前沿技术/24.精读《现代 JavaScript 概览》.md">24.精读《现代 JavaScript 概览》</a>
 - <a href="./前沿技术/25.精读《null >= 0?》.md">25.精读《null >= 0?》</a>
 - <a href="./前沿技术/26.精读《加密媒体扩展》.md">26.精读《加密媒体扩展》</a>
 - <a href="./前沿技术/27.精读《css-in-js 杀鸡用牛刀》.md">27.精读《css-in-js 杀鸡用牛刀》</a>
-- <a href="./前沿技术/28.精读《2017前端性能优化备忘录》.md">28.精读《2017前端性能优化备忘录》</a>
+- <a href="./前沿技术/28.精读《2017 前端性能优化备忘录》.md">28.精读《2017 前端性能优化备忘录》</a>
 - <a href="./前沿技术/29.精读《JS 中的内存管理》.md">29.精读《JS 中的内存管理》</a>
 - <a href="./前沿技术/30.精读《Javascript 事件循环与异步》.md">30.精读《Javascript 事件循环与异步》</a>
 - <a href="./前沿技术/31.精读《我不再使用高阶组件》.md">31.精读《我不再使用高阶组件》</a>
 - <a href="./前沿技术/32.精读《React Router4.0 进阶概念》.md">32.精读《React Router4.0 进阶概念》</a>
-- <a href="./前沿技术/33.精读《30行js代码创建神经网络》.md">33.精读《30行js代码创建神经网络》</a>
+- <a href="./前沿技术/33.精读《30 行 js 代码创建神经网络》.md">33.精读《30 行 js 代码创建神经网络》</a>
 - <a href="./前沿技术/34.精读《React 代码整洁之道》.md">34.精读《React 代码整洁之道》</a>
 - <a href="./前沿技术/35.精读《dob - 框架实现》.md">35.精读《dob - 框架实现》</a>
 - <a href="./前沿技术/36.精读《When You “Git” in Trouble- a Version Control Story》.md">36.精读《When You “Git” in Trouble- a Version Control Story》</a>
@@ -67,7 +67,7 @@
 - <a href="./前沿技术/46.精读《react-rxjs》.md">46.精读《react-rxjs》</a>
 - <a href="./前沿技术/47.精读《webpack4.0 升级指南》.md">47.精读《webpack4.0 升级指南》</a>
 - <a href="./前沿技术/49.精读《Compilers are the New Frameworks》.md">49.精读《Compilers are the New Frameworks》</a>
-- <a href="./前沿技术/50.精读《快速上手构建ARKit应用》.md">50.精读《快速上手构建ARKit应用》</a>
+- <a href="./前沿技术/50.精读《快速上手构建 ARKit 应用》.md">50.精读《快速上手构建 ARKit 应用》</a>
 - <a href="./前沿技术/51.精读《Elements of Web Dev》.md">51.精读《Elements of Web Dev》</a>
 - <a href="./前沿技术/52.精读《图解 ES 模块》.md">52.精读《图解 ES 模块》</a>
 - <a href="./前沿技术/53.精读《插件化思维》.md">53.精读《插件化思维》</a>

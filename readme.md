@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/193.精读《React Server Component》.md">193.精读《React Server Component》</a>
+最新精读：<a href="./前沿技术/194.精读《算法基础数据结构》.md">194.精读《算法基础数据结构》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -156,6 +156,7 @@
 - <a href="./前沿技术/191.精读《高性能表格》.md">191.精读《高性能表格》</a>
 - <a href="./前沿技术/192.精读《DOM diff 最长上升子序列》.md">192.精读《DOM diff 最长上升子序列》</a>
 - <a href="./前沿技术/193.精读《React Server Component》.md">193.精读《React Server Component》</a>
+- <a href="./前沿技术/194.精读《算法基础数据结构》.md">194.精读《算法基础数据结构》</a>
 
 ### 设计模式
 

@@ -5,7 +5,7 @@
 
 const fs = require('fs')
 
-const dirs = ['前沿技术', '设计模式', '编译原理', '源码解读', '商业思考']
+const dirs = ['前沿技术', '设计模式', '编译原理', '源码解读', '商业思考', '算法']
 
 dirs.forEach(dir => {
   const readDir = fs.readdirSync(`./${dir}`);

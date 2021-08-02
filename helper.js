@@ -23,7 +23,7 @@ dirs.forEach((dir) => {
     .sort((left, right) => left.split(".")[0] - right.split(".")[0])
     .forEach((dirName) => {
       console.log(
-        `- <a href="./${dir}/${encodeURI(dirName)}">${dirName.replace(
+        `- <a href="./${dir}/${encodeURIComponent(dirName)}">${dirName.replace(
           ".md",
           ""
         )}</a>`

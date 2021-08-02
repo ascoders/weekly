@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dt-fe/weekly#readme",
   "dependencies": {
+    "esm": "^3.2.25",
     "husky": "^3.0.4",
     "lint-md-cli": "^0.1.1"
   },

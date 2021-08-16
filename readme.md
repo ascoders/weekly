@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/205.%E7%B2%BE%E8%AF%BB%E3%80%8AJS%20with%20%E8%AF%AD%E6%B3%95%E3%80%8B.md">205.精读《JS with 语法》</a>
+最新精读：<a href="./前沿技术/206.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%80%E7%A7%8D%20Hooks%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88%E3%80%8B.md">206.精读《一种 Hooks 数据流管理方案》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -163,6 +163,7 @@
 - <a href="./前沿技术/202.%E7%B2%BE%E8%AF%BB%E3%80%8AReact%2018%E3%80%8B.md">202.精读《React 18》</a>
 - <a href="./前沿技术/204.%E7%B2%BE%E8%AF%BB%E3%80%8A%E9%BB%98%E8%AE%A4%E3%80%81%E5%91%BD%E5%90%8D%E5%AF%BC%E5%87%BA%E7%9A%84%E5%8C%BA%E5%88%AB%E3%80%8B.md">204.精读《默认、命名导出的区别》</a>
 - <a href="./前沿技术/205.%E7%B2%BE%E8%AF%BB%E3%80%8AJS%20with%20%E8%AF%AD%E6%B3%95%E3%80%8B.md">205.精读《JS with 语法》</a>
+- <a href="./前沿技术/206.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%80%E7%A7%8D%20Hooks%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88%E3%80%8B.md">206.精读《一种 Hooks 数据流管理方案》</a>
 
 ### 设计模式
 

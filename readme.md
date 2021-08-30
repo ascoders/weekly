@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/207.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%20infer%20%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%8B.md">207.精读《Typescript infer 关键字》</a>
+最新精读：<a href="./前沿技术/208.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.4%E3%80%8B.md">208.精读《Typescript 4.4》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -165,6 +165,7 @@
 - <a href="./前沿技术/205.%E7%B2%BE%E8%AF%BB%E3%80%8AJS%20with%20%E8%AF%AD%E6%B3%95%E3%80%8B.md">205.精读《JS with 语法》</a>
 - <a href="./前沿技术/206.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%80%E7%A7%8D%20Hooks%20%E6%95%B0%E6%8D%AE%E6%B5%81%E7%AE%A1%E7%90%86%E6%96%B9%E6%A1%88%E3%80%8B.md">206.精读《一种 Hooks 数据流管理方案》</a>
 - <a href="./前沿技术/207.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%20infer%20%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%8B.md">207.精读《Typescript infer 关键字》</a>
+- <a href="./前沿技术/208.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.4%E3%80%8B.md">208.精读《Typescript 4.4》</a>
 
 ### 设计模式
 

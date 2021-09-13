@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/209.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%8D%95%E8%8E%B7%E6%89%80%E6%9C%89%E5%BC%82%E6%AD%A5%20error%E3%80%8B.md">209.精读《捕获所有异步 error》</a>
+最新精读：<a href="./前沿技术/210.%E7%B2%BE%E8%AF%BB%E3%80%8Aclass%20static%20block%E3%80%8B.md">210.精读《class static block》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -167,6 +167,7 @@
 - <a href="./前沿技术/207.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%20infer%20%E5%85%B3%E9%94%AE%E5%AD%97%E3%80%8B.md">207.精读《Typescript infer 关键字》</a>
 - <a href="./前沿技术/208.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.4%E3%80%8B.md">208.精读《Typescript 4.4》</a>
 - <a href="./前沿技术/209.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%8D%95%E8%8E%B7%E6%89%80%E6%9C%89%E5%BC%82%E6%AD%A5%20error%E3%80%8B.md">209.精读《捕获所有异步 error》</a>
+- <a href="./前沿技术/210.%E7%B2%BE%E8%AF%BB%E3%80%8Aclass%20static%20block%E3%80%8B.md">210.精读《class static block》</a>
 
 ### 设计模式
 

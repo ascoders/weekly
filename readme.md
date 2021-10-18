@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/212.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%8F%AF%E7%BB%B4%E6%8A%A4%E6%80%A7%E6%80%9D%E8%80%83%E3%80%8B.md">212.精读《可维护性思考》</a>
+最新精读：<a href="./前沿技术/213.%E7%B2%BE%E8%AF%BB%E3%80%8APrisma%20%E7%9A%84%E4%BD%BF%E7%94%A8%E3%80%8B.md">213.精读《Prisma 的使用》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -169,6 +169,8 @@
 - <a href="./前沿技术/209.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%8D%95%E8%8E%B7%E6%89%80%E6%9C%89%E5%BC%82%E6%AD%A5%20error%E3%80%8B.md">209.精读《捕获所有异步 error》</a>
 - <a href="./前沿技术/210.%E7%B2%BE%E8%AF%BB%E3%80%8Aclass%20static%20block%E3%80%8B.md">210.精读《class static block》</a>
 - <a href="./前沿技术/211.%E7%B2%BE%E8%AF%BB%E3%80%8AMicrosoft%20Power%20Fx%E3%80%8B.md">211.精读《Microsoft Power Fx》</a>
+- <a href="./前沿技术/212.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%8F%AF%E7%BB%B4%E6%8A%A4%E6%80%A7%E6%80%9D%E8%80%83%E3%80%8B.md">212.精读《可维护性思考》</a>
+- <a href="./前沿技术/213.%E7%B2%BE%E8%AF%BB%E3%80%8APrisma%20%E7%9A%84%E4%BD%BF%E7%94%A8%E3%80%8B.md">213.精读《Prisma 的使用》</a>
 
 ### 设计模式
 

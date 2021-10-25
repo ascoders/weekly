@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/213.%E7%B2%BE%E8%AF%BB%E3%80%8APrisma%20%E7%9A%84%E4%BD%BF%E7%94%A8%E3%80%8B.md">213.精读《Prisma 的使用》</a>
+最新精读：<a href="./前沿技术/214.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20streams%E3%80%8B.md">214.精读《web streams》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -171,6 +171,7 @@
 - <a href="./前沿技术/211.%E7%B2%BE%E8%AF%BB%E3%80%8AMicrosoft%20Power%20Fx%E3%80%8B.md">211.精读《Microsoft Power Fx》</a>
 - <a href="./前沿技术/212.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%8F%AF%E7%BB%B4%E6%8A%A4%E6%80%A7%E6%80%9D%E8%80%83%E3%80%8B.md">212.精读《可维护性思考》</a>
 - <a href="./前沿技术/213.%E7%B2%BE%E8%AF%BB%E3%80%8APrisma%20%E7%9A%84%E4%BD%BF%E7%94%A8%E3%80%8B.md">213.精读《Prisma 的使用》</a>
+- <a href="./前沿技术/214.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20streams%E3%80%8B.md">214.精读《web streams》</a>
 
 ### 设计模式
 

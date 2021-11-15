@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/216.%E7%B2%BE%E8%AF%BB%E3%80%8A15%20%E5%A4%A7%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%20-%20%E4%B8%8A%E3%80%8B.md">216.精读《15 大 LOD 表达式 - 上》</a>
+最新精读：<a href="./前沿技术/217.%E7%B2%BE%E8%AF%BB%E3%80%8A15%20%E5%A4%A7%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%20-%20%E4%B8%8B%E3%80%8B.md">217.精读《15 大 LOD 表达式 - 下》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -174,6 +174,7 @@
 - <a href="./前沿技术/214.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20streams%E3%80%8B.md">214.精读《web streams》</a>
 - <a href="./前沿技术/215.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%BB%80%E4%B9%88%E6%98%AF%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%E3%80%8B.md">215.精读《什么是 LOD 表达式》</a>
 - <a href="./前沿技术/216.%E7%B2%BE%E8%AF%BB%E3%80%8A15%20%E5%A4%A7%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%20-%20%E4%B8%8A%E3%80%8B.md">216.精读《15 大 LOD 表达式 - 上》</a>
+- <a href="./前沿技术/217.%E7%B2%BE%E8%AF%BB%E3%80%8A15%20%E5%A4%A7%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%20-%20%E4%B8%8B%E3%80%8B.md">217.精读《15 大 LOD 表达式 - 下》</a>
 
 ### 设计模式
 

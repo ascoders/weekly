@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/218.%E7%B2%BE%E8%AF%BB%E3%80%8ARust%20%E6%98%AF%20JS%20%E5%9F%BA%E5%BB%BA%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%8B.md">218.精读《Rust 是 JS 基建的未来》</a>
+最新精读：<a href="./前沿技术/219.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E7%8E%B0%E4%BB%A3%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%80%E3%80%8B.md">219.精读《深入了解现代浏览器一》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -176,6 +176,7 @@
 - <a href="./前沿技术/216.%E7%B2%BE%E8%AF%BB%E3%80%8A15%20%E5%A4%A7%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%20-%20%E4%B8%8A%E3%80%8B.md">216.精读《15 大 LOD 表达式 - 上》</a>
 - <a href="./前沿技术/217.%E7%B2%BE%E8%AF%BB%E3%80%8A15%20%E5%A4%A7%20LOD%20%E8%A1%A8%E8%BE%BE%E5%BC%8F%20-%20%E4%B8%8B%E3%80%8B.md">217.精读《15 大 LOD 表达式 - 下》</a>
 - <a href="./前沿技术/218.%E7%B2%BE%E8%AF%BB%E3%80%8ARust%20%E6%98%AF%20JS%20%E5%9F%BA%E5%BB%BA%E7%9A%84%E6%9C%AA%E6%9D%A5%E3%80%8B.md">218.精读《Rust 是 JS 基建的未来》</a>
+- <a href="./前沿技术/219.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E7%8E%B0%E4%BB%A3%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%80%E3%80%8B.md">219.精读《深入了解现代浏览器一》</a>
 
 ### 设计模式
 

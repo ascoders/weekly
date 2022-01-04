@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/223.%E7%B2%BE%E8%AF%BB%E3%80%8ARecords%20%26%20Tuples%20%E6%8F%90%E6%A1%88%E3%80%8B.md">223.精读《Records & Tuples 提案》</a>
+最新精读：<a href="./前沿技术/224.%E7%B2%BE%E8%AF%BB%E3%80%8ARecords%20%26%20Tuples%20for%20React%E3%80%8B.md">224.精读《Records & Tuples for React》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -181,6 +181,7 @@
 - <a href="./前沿技术/221.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E7%8E%B0%E4%BB%A3%E6%B5%8F%E8%A7%88%E5%99%A8%E4%B8%89%E3%80%8B.md">221.精读《深入了解现代浏览器三》</a>
 - <a href="./前沿技术/222.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%B7%B1%E5%85%A5%E4%BA%86%E8%A7%A3%E7%8E%B0%E4%BB%A3%E6%B5%8F%E8%A7%88%E5%99%A8%E5%9B%9B%E3%80%8B.md">222.精读《深入了解现代浏览器四》</a>
 - <a href="./前沿技术/223.%E7%B2%BE%E8%AF%BB%E3%80%8ARecords%20%26%20Tuples%20%E6%8F%90%E6%A1%88%E3%80%8B.md">223.精读《Records & Tuples 提案》</a>
+- <a href="./前沿技术/224.%E7%B2%BE%E8%AF%BB%E3%80%8ARecords%20%26%20Tuples%20for%20React%E3%80%8B.md">224.精读《Records & Tuples for React》</a>
 
 ### 设计模式
 

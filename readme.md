@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/229.%E7%B2%BE%E8%AF%BB%E3%80%8Avue-lit%20%E6%BA%90%E7%A0%81%E3%80%8B.md">229.精读《vue-lit 源码》</a>
+最新精读：<a href="./前沿技术/230.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%AF%B9%20Markdown%20%E7%9A%84%E6%80%9D%E8%80%83%E3%80%8B.md">230.精读《对 Markdown 的思考》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -185,7 +185,6 @@
 - <a href="./前沿技术/225.%E7%B2%BE%E8%AF%BB%E3%80%8AExcel%20JS%20API%E3%80%8B.md">225.精读《Excel JS API》</a>
 - <a href="./前沿技术/226.%E7%B2%BE%E8%AF%BB%E3%80%8A2021%20%E5%89%8D%E7%AB%AF%E6%96%B0%E7%A7%80%E5%9B%9E%E9%A1%BE%E3%80%8B.md">226.精读《2021 前端新秀回顾》</a>
 - <a href="./前沿技术/228.%E7%B2%BE%E8%AF%BB%E3%80%8Apipe%20operator%20for%20JavaScript%E3%80%8B.md">228.精读《pipe operator for JavaScript》</a>
-- <a href="./前沿技术/229.%E7%B2%BE%E8%AF%BB%E3%80%8Avue-lit%20%E6%BA%90%E7%A0%81%E3%80%8B.md">229.精读《vue-lit 源码》</a>
 
 ### 设计模式
 
@@ -241,6 +240,8 @@
 - <a href="./源码解读/155.%20%E7%B2%BE%E8%AF%BB%E3%80%8Ause-what-changed%20%E6%BA%90%E7%A0%81%E3%80%8B.md">155. 精读《use-what-changed 源码》</a>
 - <a href="./源码解读/156.%20%E7%B2%BE%E8%AF%BB%E3%80%8Areact-intersection-observer%20%E6%BA%90%E7%A0%81%E3%80%8B.md">156. 精读《react-intersection-observer 源码》</a>
 - <a href="./源码解读/227.%20%E7%B2%BE%E8%AF%BB%E3%80%8Azustand%20%E6%BA%90%E7%A0%81%E3%80%8B.md">227. 精读《zustand 源码》</a>
+- <a href="./前沿技术/229.%E7%B2%BE%E8%AF%BB%E3%80%8Avue-lit%20%E6%BA%90%E7%A0%81%E3%80%8B.md">229.精读《vue-lit 源码》</a>
+- <a href="./前沿技术/230.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%AF%B9%20Markdown%20%E7%9A%84%E6%80%9D%E8%80%83%E3%80%8B.md">230.精读《对 Markdown 的思考》</a>
 
 ### 商业思考
 

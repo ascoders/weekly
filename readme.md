@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./SQL/230.SQL%20%E5%85%A5%E9%97%A8.md">231.SQL 入门</a>
+最新精读：<a href="./SQL/231.SQL%20%E5%85%A5%E9%97%A8.md">231.SQL 入门</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 

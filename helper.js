@@ -12,6 +12,7 @@ const dirs = [
   "源码解读",
   "商业思考",
   "算法",
+  "SQL"
 ];
 
 dirs.forEach((dir) => {

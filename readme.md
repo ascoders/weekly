@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./SQL/232.SQL%20%E8%81%9A%E5%90%88%E6%9F%A5%E8%AF%A2.md">232.SQL 聚合查询</a>
+最新精读：<a href="./SQL/233.SQL%20%E5%A4%8D%E6%9D%82%E6%9F%A5%E8%AF%A2.md">233.SQL 复杂查询</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -269,6 +269,7 @@
 
 - <a href="./SQL/231.SQL%20%E5%85%A5%E9%97%A8.md">231.SQL 入门</a>
 - <a href="./SQL/232.SQL%20%E8%81%9A%E5%90%88%E6%9F%A5%E8%AF%A2.md">232.SQL 聚合查询</a>
+- <a href="./SQL/233.SQL%20%E5%A4%8D%E6%9D%82%E6%9F%A5%E8%AF%A2.md">233.SQL 复杂查询</a>
 
 ## 关注前端精读微信公众号
 

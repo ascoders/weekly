@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./SQL/236.SQL%20grouping.md">236.SQL grouping</a>
+最新精读：<a href="./前沿技术/237.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.5-4.6%20%E6%96%B0%E7%89%B9%E6%80%A7%E3%80%8B.md">237.精读《Typescript 4.5-4.6 新特性》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -186,6 +186,7 @@
 - <a href="./前沿技术/226.%E7%B2%BE%E8%AF%BB%E3%80%8A2021%20%E5%89%8D%E7%AB%AF%E6%96%B0%E7%A7%80%E5%9B%9E%E9%A1%BE%E3%80%8B.md">226.精读《2021 前端新秀回顾》</a>
 - <a href="./前沿技术/228.%E7%B2%BE%E8%AF%BB%E3%80%8Apipe%20operator%20for%20JavaScript%E3%80%8B.md">228.精读《pipe operator for JavaScript》</a>
 - <a href="./前沿技术/230.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%AF%B9%20Markdown%20%E7%9A%84%E6%80%9D%E8%80%83%E3%80%8B.md">230.精读《对 Markdown 的思考》</a>
+- <a href="./前沿技术/237.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.5-4.6%20%E6%96%B0%E7%89%B9%E6%80%A7%E3%80%8B.md">237.精读《Typescript 4.5-4.6 新特性》</a>
 
 ### 设计模式
 

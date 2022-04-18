@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/237.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.5-4.6%20%E6%96%B0%E7%89%B9%E6%80%A7%E3%80%8B.md">237.精读《Typescript 4.5-4.6 新特性》</a>
+最新精读：<a href="./前沿技术/238.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%8D%E5%86%8D%E9%9C%80%E8%A6%81%20JS%20%E5%81%9A%E7%9A%84%205%20%E4%BB%B6%E4%BA%8B%E3%80%8B.md">238.精读《不再需要 JS 做的 5 件事》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -187,6 +187,7 @@
 - <a href="./前沿技术/228.%E7%B2%BE%E8%AF%BB%E3%80%8Apipe%20operator%20for%20JavaScript%E3%80%8B.md">228.精读《pipe operator for JavaScript》</a>
 - <a href="./前沿技术/230.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%AF%B9%20Markdown%20%E7%9A%84%E6%80%9D%E8%80%83%E3%80%8B.md">230.精读《对 Markdown 的思考》</a>
 - <a href="./前沿技术/237.%E7%B2%BE%E8%AF%BB%E3%80%8ATypescript%204.5-4.6%20%E6%96%B0%E7%89%B9%E6%80%A7%E3%80%8B.md">237.精读《Typescript 4.5-4.6 新特性》</a>
+- <a href="./前沿技术/238.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%8D%E5%86%8D%E9%9C%80%E8%A6%81%20JS%20%E5%81%9A%E7%9A%84%205%20%E4%BB%B6%E4%BA%8B%E3%80%8B.md">238.精读《不再需要 JS 做的 5 件事》</a>
 
 ### 设计模式
 

@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/240.%E7%B2%BE%E8%AF%BB%E3%80%8AReact%20useEvent%20RFC%E3%80%8B.md">240.精读《React useEvent RFC》</a>
+最新精读：<a href="./源码解读/241.%E7%B2%BE%E8%AF%BB%E3%80%8Areact-snippets%20-%20Router%20%E6%BA%90%E7%A0%81%E3%80%8B.md">241.精读《react-snippets - Router 源码》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -246,6 +246,7 @@
 - <a href="./源码解读/156.%20%E7%B2%BE%E8%AF%BB%E3%80%8Areact-intersection-observer%20%E6%BA%90%E7%A0%81%E3%80%8B.md">156. 精读《react-intersection-observer 源码》</a>
 - <a href="./源码解读/227.%20%E7%B2%BE%E8%AF%BB%E3%80%8Azustand%20%E6%BA%90%E7%A0%81%E3%80%8B.md">227. 精读《zustand 源码》</a>
 - <a href="./源码解读/229.%E7%B2%BE%E8%AF%BB%E3%80%8Avue-lit%20%E6%BA%90%E7%A0%81%E3%80%8B.md">229.精读《vue-lit 源码》</a>
+- <a href="./源码解读/241.%E7%B2%BE%E8%AF%BB%E3%80%8Areact-snippets%20-%20Router%20%E6%BA%90%E7%A0%81%E3%80%8B.md">241.精读《react-snippets - Router 源码》</a>
 
 ### 商业思考
 

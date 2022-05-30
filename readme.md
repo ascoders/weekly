@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./源码解读/241.%E7%B2%BE%E8%AF%BB%E3%80%8Areact-snippets%20-%20Router%20%E6%BA%90%E7%A0%81%E3%80%8B.md">241.精读《react-snippets - Router 源码》</a>
+最新精读：<a href="./前沿技术/242.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20reflow%E3%80%8B.md">242.精读《web reflow》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -190,6 +190,7 @@
 - <a href="./前沿技术/238.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%B8%8D%E5%86%8D%E9%9C%80%E8%A6%81%20JS%20%E5%81%9A%E7%9A%84%205%20%E4%BB%B6%E4%BA%8B%E3%80%8B.md">238.精读《不再需要 JS 做的 5 件事》</a>
 - <a href="./前沿技术/239.%E7%B2%BE%E8%AF%BB%E3%80%8AJS%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%86%85%E9%83%A8%E5%AE%9E%E7%8E%B0%E3%80%8B.md">239.精读《JS 数组的内部实现》</a>
 - <a href="./前沿技术/240.%E7%B2%BE%E8%AF%BB%E3%80%8AReact%20useEvent%20RFC%E3%80%8B.md">240.精读《React useEvent RFC》</a>
+- <a href="./前沿技术/242.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20reflow%E3%80%8B.md">242.精读《web reflow》</a>
 
 ### 设计模式
 

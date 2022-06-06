@@ -7,6 +7,7 @@ const fs = require("fs");
 
 const dirs = [
   "前沿技术",
+  "TS 类型体操",
   "设计模式",
   "编译原理",
   "源码解读",

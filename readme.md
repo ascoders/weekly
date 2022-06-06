@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/242.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20reflow%E3%80%8B.md">242.精读《web reflow》</a>
+最新精读：<a href="./TS 类型体操/243.%E7%B2%BE%E8%AF%BB%E3%80%8Atype%20challenges%20-%20easy%E3%80%8B.md">243.精读《type challenges - easy》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -191,6 +191,10 @@
 - <a href="./前沿技术/239.%E7%B2%BE%E8%AF%BB%E3%80%8AJS%20%E6%95%B0%E7%BB%84%E7%9A%84%E5%86%85%E9%83%A8%E5%AE%9E%E7%8E%B0%E3%80%8B.md">239.精读《JS 数组的内部实现》</a>
 - <a href="./前沿技术/240.%E7%B2%BE%E8%AF%BB%E3%80%8AReact%20useEvent%20RFC%E3%80%8B.md">240.精读《React useEvent RFC》</a>
 - <a href="./前沿技术/242.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20reflow%E3%80%8B.md">242.精读《web reflow》</a>
+
+### TS 类型体操
+
+- <a href="./TS 类型体操/243.%E7%B2%BE%E8%AF%BB%E3%80%8Atype%20challenges%20-%20easy%E3%80%8B.md">243.精读《type challenges - easy》</a>
 
 ### 设计模式
 

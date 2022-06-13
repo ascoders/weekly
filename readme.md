@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./TS 类型体操/243.%E7%B2%BE%E8%AF%BB%E3%80%8Atype%20challenges%20-%20easy%E3%80%8B.md">243.精读《type challenges - easy》</a>
+最新精读：<a href="./TS 类型体操/244.%E7%B2%BE%E8%AF%BB%E3%80%8AGet%20return%20type%2C%20Omit%2C%20ReadOnly...%E3%80%8B.md">244.精读《Get return type, Omit, ReadOnly...》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -194,7 +194,8 @@
 
 ### TS 类型体操
 
-- <a href="./TS 类型体操/243.%E7%B2%BE%E8%AF%BB%E3%80%8Atype%20challenges%20-%20easy%E3%80%8B.md">243.精读《type challenges - easy》</a>
+- <a href="./TS 类型体操/243.%E7%B2%BE%E8%AF%BB%E3%80%8APick%2C%20Awaited%2C%20If%E3%80%8B.md">243.精读《Pick, Awaited, If》</a>
+- <a href="./TS 类型体操/244.%E7%B2%BE%E8%AF%BB%E3%80%8AGet%20return%20type%2C%20Omit%2C%20ReadOnly...%E3%80%8B.md">244.精读《Get return type, Omit, ReadOnly...》</a>
 
 ### 设计模式
 

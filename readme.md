@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./TS 类型体操/245.%E7%B2%BE%E8%AF%BB%E3%80%8APromise.all%2C%20Replace%2C%20Type%20Lookup...%E3%80%8B.md">245.精读《Promise.all, Replace, Type Lookup...》</a>
+最新精读：<a href="./TS 类型体操/246.%E7%B2%BE%E8%AF%BB%E3%80%8APermutation%2C%20Flatten%2C%20Absolute...%E3%80%8B.md">246.精读《Permutation, Flatten, Absolute...》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -197,6 +197,7 @@
 - <a href="./TS 类型体操/243.%E7%B2%BE%E8%AF%BB%E3%80%8APick%2C%20Awaited%2C%20If%E3%80%8B.md">243.精读《Pick, Awaited, If》</a>
 - <a href="./TS 类型体操/244.%E7%B2%BE%E8%AF%BB%E3%80%8AGet%20return%20type%2C%20Omit%2C%20ReadOnly...%E3%80%8B.md">244.精读《Get return type, Omit, ReadOnly...》</a>
 - <a href="./TS 类型体操/245.%E7%B2%BE%E8%AF%BB%E3%80%8APromise.all%2C%20Replace%2C%20Type%20Lookup...%E3%80%8B.md">245.精读《Promise.all, Replace, Type Lookup...》</a>
+- <a href="./TS 类型体操/246.%E7%B2%BE%E8%AF%BB%E3%80%8APermutation%2C%20Flatten%2C%20Absolute...%E3%80%8B.md">246.精读《Permutation, Flatten, Absolute...》</a>
 
 ### 设计模式
 

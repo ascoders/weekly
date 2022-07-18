@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./TS 类型体操/248.%E7%B2%BE%E8%AF%BB%E3%80%8AMinusOne%2C%20PickByType%2C%20StartsWith...%E3%80%8B.md">248.精读《MinusOne, PickByType, StartsWith...》</a>
+最新精读：<a href="./TS 类型体操/249.%E7%B2%BE%E8%AF%BB%E3%80%8AObjectEntries%2C%20Shift%2C%20Reverse...%E3%80%8B.md">249.精读《ObjectEntries, Shift, Reverse...》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -200,6 +200,7 @@
 - <a href="./TS 类型体操/246.%E7%B2%BE%E8%AF%BB%E3%80%8APermutation%2C%20Flatten%2C%20Absolute...%E3%80%8B.md">246.精读《Permutation, Flatten, Absolute...》</a>
 - <a href="./TS 类型体操/247.%E7%B2%BE%E8%AF%BB%E3%80%8ADiff%2C%20AnyOf%2C%20IsUnion...%E3%80%8B.md">247.精读《Diff, AnyOf, IsUnion...》</a>
 - <a href="./TS 类型体操/248.%E7%B2%BE%E8%AF%BB%E3%80%8AMinusOne%2C%20PickByType%2C%20StartsWith...%E3%80%8B.md">248.精读《MinusOne, PickByType, StartsWith...》</a>
+- <a href="./TS 类型体操/249.%E7%B2%BE%E8%AF%BB%E3%80%8AObjectEntries%2C%20Shift%2C%20Reverse...%E3%80%8B.md">249.精读《ObjectEntries, Shift, Reverse...》</a>
 
 ### 设计模式
 

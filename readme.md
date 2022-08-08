@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./TS 类型体操/251.%E7%B2%BE%E8%AF%BB%E3%80%8ATrim%20Right%2C%20Without%2C%20Trunc...%E3%80%8B.md">251.精读《Trim Right, Without, Trunc...》</a>
+最新精读：<a href="./TS 类型体操/252.%E7%B2%BE%E8%AF%BB%E3%80%8AUnique%2C%20MapTypes%2C%20Construct%20Tuple...%E3%80%8B.md">252.精读《Unique, MapTypes, Construct Tuple...》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -203,6 +203,7 @@
 - <a href="./TS 类型体操/249.%E7%B2%BE%E8%AF%BB%E3%80%8AObjectEntries%2C%20Shift%2C%20Reverse...%E3%80%8B.md">249.精读《ObjectEntries, Shift, Reverse...》</a>
 - <a href="./TS 类型体操/250.%E7%B2%BE%E8%AF%BB%E3%80%8AFlip%2C%20Fibonacci%2C%20AllCombinations...%E3%80%8B.md">250.精读《Flip, Fibonacci, AllCombinations...》</a>
 - <a href="./TS 类型体操/251.%E7%B2%BE%E8%AF%BB%E3%80%8ATrim%20Right%2C%20Without%2C%20Trunc...%E3%80%8B.md">251.精读《Trim Right, Without, Trunc...》</a>
+- <a href="./TS 类型体操/252.%E7%B2%BE%E8%AF%BB%E3%80%8AUnique%2C%20MapTypes%2C%20Construct%20Tuple...%E3%80%8B.md">252.精读《Unique, MapTypes, Construct Tuple...》</a>
 
 ### 设计模式
 

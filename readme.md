@@ -192,6 +192,8 @@
 - <a href="./前沿技术/240.%E7%B2%BE%E8%AF%BB%E3%80%8AReact%20useEvent%20RFC%E3%80%8B.md">240.精读《React useEvent RFC》</a>
 - <a href="./前沿技术/242.%E7%B2%BE%E8%AF%BB%E3%80%8Aweb%20reflow%E3%80%8B.md">242.精读《web reflow》</a>
 - <a href="./前沿技术/253.%E7%B2%BE%E8%AF%BB%E3%80%8Apnpm%E3%80%8B.md">253.精读《pnpm》</a>
+- <a href="./前沿技术/254.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%AF%B9%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84%E7%9A%84%E7%90%86%E8%A7%A3%20-%20%E5%88%86%E5%B1%82%E4%B8%8E%E6%8A%BD%E8%B1%A1%E3%80%8B.md">254.精读《对前端架构的理解 - 分层与抽象》</a>
+- <a href="./前沿技术/255.%E7%B2%BE%E8%AF%BB%E3%80%8ASolidJS%E3%80%8B.md">255.精读《SolidJS》</a>
 
 ### TS 类型体操
 
@@ -205,7 +207,6 @@
 - <a href="./TS 类型体操/250.%E7%B2%BE%E8%AF%BB%E3%80%8AFlip%2C%20Fibonacci%2C%20AllCombinations...%E3%80%8B.md">250.精读《Flip, Fibonacci, AllCombinations...》</a>
 - <a href="./TS 类型体操/251.%E7%B2%BE%E8%AF%BB%E3%80%8ATrim%20Right%2C%20Without%2C%20Trunc...%E3%80%8B.md">251.精读《Trim Right, Without, Trunc...》</a>
 - <a href="./TS 类型体操/252.%E7%B2%BE%E8%AF%BB%E3%80%8AUnique%2C%20MapTypes%2C%20Construct%20Tuple...%E3%80%8B.md">252.精读《Unique, MapTypes, Construct Tuple...》</a>
-- <a href="./前沿技术/254.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%AF%B9%E5%89%8D%E7%AB%AF%E6%9E%B6%E6%9E%84%E7%9A%84%E7%90%86%E8%A7%A3%20-%20%E5%88%86%E5%B1%82%E4%B8%8E%E6%8A%BD%E8%B1%A1%E3%80%8B.md">254.精读《对前端架构的理解 - 分层与抽象》</a>
 
 ### 设计模式
 

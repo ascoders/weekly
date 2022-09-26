@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/257.%E7%B2%BE%E8%AF%BB%E3%80%8AState%20of%20CSS%202022%E3%80%8B.md">257.精读《State of CSS 2022》</a>
+最新精读：<a href="./前沿技术/258.%E7%B2%BE%E8%AF%BB%E3%80%8Aproposal-extractors%E3%80%8B.md">258.精读《proposal-extractors》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -196,6 +196,7 @@
 - <a href="./前沿技术/255.%E7%B2%BE%E8%AF%BB%E3%80%8ASolidJS%E3%80%8B.md">255.精读《SolidJS》</a>
 - <a href="./前沿技术/256.%E7%B2%BE%E8%AF%BB%E3%80%8A%E4%BE%9D%E8%B5%96%E6%B3%A8%E5%85%A5%E7%AE%80%E4%BB%8B%E3%80%8B.md">256.精读《依赖注入简介》</a>
 - <a href="./前沿技术/257.%E7%B2%BE%E8%AF%BB%E3%80%8AState%20of%20CSS%202022%E3%80%8B.md">257.精读《State of CSS 2022》</a>
+- <a href="./前沿技术/258.%E7%B2%BE%E8%AF%BB%E3%80%8Aproposal-extractors%E3%80%8B.md">258.精读《proposal-extractors》</a>
 
 ### TS 类型体操
 

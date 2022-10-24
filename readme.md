@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/259.%E7%B2%BE%E8%AF%BB%E3%80%8AHeadless%20%E7%BB%84%E4%BB%B6%E7%94%A8%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86%E3%80%8B.md">259.精读《Headless 组件用法与原理》</a>
+最新精读：<a href="./前沿技术/260.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%A6%82%E4%BD%95%E4%B8%BA%20TS%20%E7%B1%BB%E5%9E%8B%E5%86%99%E5%8D%95%E6%B5%8B%E3%80%8B.md">260.精读《如何为 TS 类型写单测》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -198,6 +198,7 @@
 - <a href="./前沿技术/257.%E7%B2%BE%E8%AF%BB%E3%80%8AState%20of%20CSS%202022%E3%80%8B.md">257.精读《State of CSS 2022》</a>
 - <a href="./前沿技术/258.%E7%B2%BE%E8%AF%BB%E3%80%8Aproposal-extractors%E3%80%8B.md">258.精读《proposal-extractors》</a>
 - <a href="./前沿技术/259.%E7%B2%BE%E8%AF%BB%E3%80%8AHeadless%20%E7%BB%84%E4%BB%B6%E7%94%A8%E6%B3%95%E4%B8%8E%E5%8E%9F%E7%90%86%E3%80%8B.md">259.精读《Headless 组件用法与原理》</a>
+- <a href="./前沿技术/260.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%A6%82%E4%BD%95%E4%B8%BA%20TS%20%E7%B1%BB%E5%9E%8B%E5%86%99%E5%8D%95%E6%B5%8B%E3%80%8B.md">260.精读《如何为 TS 类型写单测》</a>
 
 ### TS 类型体操
 

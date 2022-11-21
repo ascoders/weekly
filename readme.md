@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/264.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%A4%8D%E6%9D%82%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%A7%A3%E8%80%A6%E8%AE%BE%E8%AE%A1%E3%80%8B.md">264.精读《复杂项目的解耦设计》</a>
+最新精读：<a href="./前沿技术/264.%E7%B2%BE%E8%AF%BB%E3%80%8A%E7%BB%B4%E6%8A%A4%E5%A5%BD%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E9%A1%B9%E7%9B%AE%E3%80%8B.md">264.精读《维护好一个复杂项目》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -202,7 +202,7 @@
 - <a href="./前沿技术/261.%E7%B2%BE%E8%AF%BB%E3%80%8ARest%20vs%20Spread%20%E8%AF%AD%E6%B3%95%E3%80%8B.md">261.精读《Rest vs Spread 语法》</a>
 - <a href="./前沿技术/262.%E7%B2%BE%E8%AF%BB%E3%80%8A%E8%BF%AD%E4%BB%A3%E5%99%A8%20Iterable%E3%80%8B.md">262.精读《迭代器 Iterable》</a>
 - <a href="./前沿技术/263.%E7%B2%BE%E8%AF%BB%E3%80%8A%E6%88%91%E4%BB%AC%E4%B8%BA%E4%BD%95%E5%BC%83%E7%94%A8%20css-in-js%E3%80%8B.md">263.精读《我们为何弃用 css-in-js》</a>
-- <a href="./前沿技术/264.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%A4%8D%E6%9D%82%E9%A1%B9%E7%9B%AE%E7%9A%84%E8%A7%A3%E8%80%A6%E8%AE%BE%E8%AE%A1%E3%80%8B.md">264.精读《复杂项目的解耦设计》</a>
+- <a href="./前沿技术/264.%E7%B2%BE%E8%AF%BB%E3%80%8A%E7%BB%B4%E6%8A%A4%E5%A5%BD%E4%B8%80%E4%B8%AA%E5%A4%8D%E6%9D%82%E9%A1%B9%E7%9B%AE%E3%80%8B.md">264.精读《维护好一个复杂项目》</a>
 
 ### TS 类型体操
 

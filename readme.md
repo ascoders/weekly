@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./可视化搭建/271.%E5%8F%AF%E8%A7%86%E5%8C%96%E6%90%AD%E5%BB%BA%E5%86%85%E7%BD%AE%20API.md">271.可视化搭建内置 API</a>
+最新精读：<a href="./可视化搭建/272.%E5%AE%B9%E5%99%A8%E7%BB%84%E4%BB%B6%E8%AE%BE%E8%AE%A1.md">272.容器组件设计</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -305,6 +305,7 @@
 - <a href="./可视化搭建/269.%E7%BB%84%E4%BB%B6%E6%B3%A8%E5%86%8C%E4%B8%8E%E7%94%BB%E5%B8%83%E6%B8%B2%E6%9F%93.md">269.组件注册与画布渲染</a>
 - <a href="./可视化搭建/270.%E7%94%BB%E5%B8%83%E4%B8%8E%E7%BB%84%E4%BB%B6%E5%85%83%E4%BF%A1%E6%81%AF%E6%95%B0%E6%8D%AE%E6%B5%81.md">270.画布与组件元信息数据流</a>
 - <a href="./可视化搭建/271.%E5%8F%AF%E8%A7%86%E5%8C%96%E6%90%AD%E5%BB%BA%E5%86%85%E7%BD%AE%20API.md">271.可视化搭建内置 API</a>
+- <a href="./可视化搭建/272.%E5%AE%B9%E5%99%A8%E7%BB%84%E4%BB%B6%E8%AE%BE%E8%AE%A1.md">272.容器组件设计</a>
 
 ### SQL
 

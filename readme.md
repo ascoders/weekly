@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./可视化搭建/275.%E7%BB%84%E4%BB%B6%E5%80%BC%E6%A0%A1%E9%AA%8C.md">275.组件值校验</a>
+最新精读：<a href="./可视化搭建/276.keepAlive%20%E6%A8%A1%E5%BC%8F.md">276.keepAlive 模式</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -309,6 +309,7 @@
 - <a href="./可视化搭建/273.%E7%BB%84%E4%BB%B6%E5%80%BC%E4%B8%8E%E8%81%94%E5%8A%A8.md">273.组件值与联动</a>
 - <a href="./可视化搭建/274.%E5%AE%9A%E4%B9%89%E8%81%94%E5%8A%A8%E5%8D%8F%E8%AE%AE.md">274.定义联动协议</a>
 - <a href="./可视化搭建/275.%E7%BB%84%E4%BB%B6%E5%80%BC%E6%A0%A1%E9%AA%8C.md">275.组件值校验</a>
+- <a href="./可视化搭建/276.keepAlive%20%E6%A8%A1%E5%BC%8F.md">276.keepAlive 模式</a>
 
 ### SQL
 

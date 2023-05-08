@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./前沿技术/277.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%88%A9%E7%94%A8%20GPT%20%E8%A7%A3%E8%AF%BB%20PDF%E3%80%8B.md">277.精读《利用 GPT 解读 PDF》</a>
+最新精读：<a href="./可视化搭建/278.ComponentLoader%20%E4%B8%8E%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6.md">278.ComponentLoader 与动态组件</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -311,6 +311,7 @@
 - <a href="./可视化搭建/274.%E5%AE%9A%E4%B9%89%E8%81%94%E5%8A%A8%E5%8D%8F%E8%AE%AE.md">274.定义联动协议</a>
 - <a href="./可视化搭建/275.%E7%BB%84%E4%BB%B6%E5%80%BC%E6%A0%A1%E9%AA%8C.md">275.组件值校验</a>
 - <a href="./可视化搭建/276.keepAlive%20%E6%A8%A1%E5%BC%8F.md">276.keepAlive 模式</a>
+- <a href="./可视化搭建/278.ComponentLoader%20%E4%B8%8E%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6.md">278.ComponentLoader 与动态组件</a>
 
 ### SQL
 

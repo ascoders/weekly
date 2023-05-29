@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./可视化搭建/279.%E8%87%AA%E5%8A%A8%E6%89%B9%E5%A4%84%E7%90%86%E4%B8%8E%E5%86%BB%E7%BB%93.md">279.自动批处理与冻结</a>
+最新精读：<a href="./可视化搭建/280.%E5%9C%BA%E6%99%AF%E5%AE%9E%E6%88%98.md">280.可视化搭建 - 场景实战</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -313,6 +313,7 @@
 - <a href="./可视化搭建/276.keepAlive%20%E6%A8%A1%E5%BC%8F.md">276.keepAlive 模式</a>
 - <a href="./可视化搭建/278.ComponentLoader%20%E4%B8%8E%E5%8A%A8%E6%80%81%E7%BB%84%E4%BB%B6.md">278.ComponentLoader 与动态组件</a>
 - <a href="./可视化搭建/279.%E8%87%AA%E5%8A%A8%E6%89%B9%E5%A4%84%E7%90%86%E4%B8%8E%E5%86%BB%E7%BB%93.md">279.自动批处理与冻结</a>
+- <a href="./可视化搭建/280.%E5%9C%BA%E6%99%AF%E5%AE%9E%E6%88%98.md">280.场景实战</a>
 
 ### SQL
 

@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./算法/286.%E7%B2%BE%E8%AF%BB%E3%80%8A%E7%AE%97%E6%B3%95%E9%A2%98%20-%20%E5%9C%B0%E4%B8%8B%E5%9F%8E%E6%B8%B8%E6%88%8F%E3%80%8B.md">286.精读《算法题 - 地下城游戏》</a>
+最新精读：<a href="./前沿技术/287.%E7%B2%BE%E8%AF%BB%E3%80%8AVisActor%20%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7%E3%80%8B.md">287.精读《VisActor 数据可视化工具》</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -209,6 +209,7 @@
 - <a href="./前沿技术/277.%E7%B2%BE%E8%AF%BB%E3%80%8A%E5%88%A9%E7%94%A8%20GPT%20%E8%A7%A3%E8%AF%BB%20PDF%E3%80%8B.md">277.精读《利用 GPT 解读 PDF》</a>
 - <a href="./前沿技术/281.%E7%B2%BE%E8%AF%BB%E3%80%8A%E8%87%AA%E7%94%B1%20%2B%20%E7%A3%81%E8%B4%B4%E6%B7%B7%E5%90%88%E5%B8%83%E5%B1%80%E3%80%8B.md">281.精读《自由 + 磁贴混合布局》</a>
 - <a href="./前沿技术/282.%E7%B2%BE%E8%AF%BB%E3%80%8A%E8%87%AA%E7%94%B1%E5%B8%83%E5%B1%80%E5%90%B8%E9%99%84%E7%BA%BF%E7%9A%84%E5%AE%9E%E7%8E%B0%E3%80%8B.md">282.精读《自由布局吸附线的实现》</a>
+- <a href="./前沿技术/287.%E7%B2%BE%E8%AF%BB%E3%80%8AVisActor%20%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96%E5%B7%A5%E5%85%B7%E3%80%8B.md">287.精读《VisActor 数据可视化工具》</a>
 
 ### TS 类型体操
 

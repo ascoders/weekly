@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./算法/289.%E7%B2%BE%E8%AF%BB%E3%80%8A%E7%AE%97%E6%B3%95%E9%A2%98%20-%20%E4%BA%8C%E5%8F%89%E6%A0%91%E4%B8%AD%E7%9A%84%E6%9C%80%E5%A4%A7%E8%B7%AF%E5%BE%84%E5%92%8C%E3%80%8B.md">289.精读《算法题 - 二叉树中的最大路径和》</a>
+最新精读：<a href="./生活/290.%E4%B8%AA%E4%BA%BA%E5%85%BB%E8%80%81%E9%87%91%E5%88%A9%E4%B8%8E%E5%BC%8A.md">290.个人养老金利与弊</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -332,6 +332,10 @@
 - <a href="./SQL/234.SQL%20CASE%20%E8%A1%A8%E8%BE%BE%E5%BC%8F.md">234.SQL CASE 表达式</a>
 - <a href="./SQL/235.SQL%20%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0.md">235.SQL 窗口函数</a>
 - <a href="./SQL/236.SQL%20grouping.md">236.SQL grouping</a>
+
+### 生活
+
+- <a href="./生活/290.%E4%B8%AA%E4%BA%BA%E5%85%BB%E8%80%81%E9%87%91%E5%88%A9%E4%B8%8E%E5%BC%8A.md">290.个人养老金利与弊</a>
 
 ## 关注前端精读微信公众号
 

@@ -14,7 +14,8 @@ const dirs = [
   "商业思考",
   "算法",
   "可视化搭建",
-  "SQL"
+  "SQL",
+  "生活",
 ];
 
 dirs.forEach((dir) => {

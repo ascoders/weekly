@@ -6,7 +6,7 @@
 
 前端界的好文精读，每周更新！
 
-最新精读：<a href="./生活/290.%E4%B8%AA%E4%BA%BA%E5%85%BB%E8%80%81%E9%87%91%E5%88%A9%E4%B8%8E%E5%BC%8A.md">290.个人养老金利与弊</a>
+最新精读：<a href="./机器学习/291.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B%3A%20%E5%AF%BB%E6%89%BE%E5%87%BD%E6%95%B0%E7%9A%84%E8%89%BA%E6%9C%AF.md">291.机器学习简介: 寻找函数的艺术</a>
 
 素材来源：[周刊参考池](https://github.com/ascoders/weekly/issues/2)
 
@@ -332,6 +332,10 @@
 - <a href="./SQL/234.SQL%20CASE%20%E8%A1%A8%E8%BE%BE%E5%BC%8F.md">234.SQL CASE 表达式</a>
 - <a href="./SQL/235.SQL%20%E7%AA%97%E5%8F%A3%E5%87%BD%E6%95%B0.md">235.SQL 窗口函数</a>
 - <a href="./SQL/236.SQL%20grouping.md">236.SQL grouping</a>
+
+### 机器学习
+
+- <a href="./机器学习/291.%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B%3A%20%E5%AF%BB%E6%89%BE%E5%87%BD%E6%95%B0%E7%9A%84%E8%89%BA%E6%9C%AF.md">291.机器学习简介: 寻找函数的艺术</a>
 
 ### 生活
 
